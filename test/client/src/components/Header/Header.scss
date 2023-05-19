@@ -1,0 +1,100 @@
+.header{
+    width: 100%;
+
+    &___nav{
+        width: 100%;
+        padding: 10px 20px;
+
+        &___top{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba(153, 153, 153, 0.468);
+
+            &___left{
+                margin-bottom: 20px;
+                & p{
+                    color: #192331;
+                    
+                    & span{
+                        color: #003072;
+                        font-weight: 500;
+                    }
+                }
+            }
+            &___right ul{
+
+                display: flex;
+                justify-content: center;
+                gap: 15px;
+
+                & li{
+                    list-style: none;
+                    color: blue;
+                }
+            }
+        }
+
+        &___bottom{
+            width: 100%;
+            padding: 20px 7px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            &___left ul{
+                display: flex;
+                align-items: center;
+                gap: 30px;
+
+                & li{
+                    list-style: none;
+                    color: #003072;
+                    cursor: pointer;
+
+                    &:hover{
+                        color: #01abab;
+                        transition: linear 0.3s;
+                    }
+                }
+            }
+            &___right{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+                & button{
+                    width: 10rem;
+                    height: 3rem;
+                    border: 3px solid #003072;
+                    background-color: white;
+                    color: #003072;
+                    font-size: 20px;
+                    font-weight: 500;
+
+                    &:hover{
+                    background-color: #003072;
+                    color: white;
+                    transition: linear 0.3s;
+                    }
+                }
+
+                &--contact{
+                    display: flex;
+                    gap: 10px;
+
+                    .contactInfo{
+                        
+                        .contactInfo--p1{
+                            color: gray;
+                        }
+                        .contactInfo--p2{
+                            color: #003072;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

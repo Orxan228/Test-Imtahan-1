@@ -1,0 +1,162 @@
+.content{
+    width: 100%;
+
+    &___best{
+        width: 100%;
+        padding: 150px 80px;
+        background-image: url(https://preview.colorlib.com/theme/itlock/assets/img/hero/h1_hero1.jpg.webp);
+        &___txt{
+            width: 45%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            &___p1{
+                font-size: 75px;
+                font-weight: 700;
+                color: white;
+            }
+
+            &___line{
+                width: 100px;
+                border: 3px solid white;
+            }
+
+            &___p2{
+                font-style: 20px;
+                color: white;
+            }
+
+            button{
+                width: 12rem;
+                height: 4rem;
+                font-size: 20px;
+                background-color: transparent;
+                border: 1px solid white;
+                color: white;
+                &:hover{
+                    background-color: #0047aa;
+                    border: 1px solid #0047aa;
+                    transition: linear 0.3s;
+                }
+
+
+            }
+        }
+    }
+    &___manage{
+        width: 100%;
+        padding: 70px;
+
+        &--s1{
+            text-align: center;
+            margin-bottom: 20px;
+            letter-spacing: 3px;
+            font-weight: 300;
+            color: #0047aa;
+        }
+        &--s2{
+            text-align: center;
+            margin-bottom: 20px;
+            color: #001c44;
+            font-weight: 600;
+            font-size: 40px;
+
+        }
+        &--s3{
+            text-align: center;
+            margin-bottom: 20px;
+            color: #172232;
+            width: 60%;
+            margin: 0 auto;
+            margin-bottom: 100px;
+        }  
+
+        .manage--icons{
+            padding: 30px 0;
+            margin: 0 auto;
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            &--icon{
+                width: 24%;
+                min-height: 250px;
+                display: flex;
+                gap: 20px;
+                padding: 15px;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                background-color: rgba(121, 217, 255, 0.129);
+
+                & p{
+                    text-align: center;
+                    width: 70%;
+                    color: #002963;
+                    font-weight: 500;
+                    line-height: 30px;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+
+    &___insights{
+        width: 90%;
+        margin: 50px auto;
+
+        &___top{
+            width: 100%;
+            background-color: #003072;
+            display: flex;
+
+            justify-content: center;
+
+            &___txt {
+                width: 100%;
+                padding: 60px 120px;
+                display: flex;
+                color: white;
+                flex-direction: column;
+                gap: 20px;
+                &--p1{
+                    font-size: 38px;
+                }
+                button{
+                    margin-top: 20px;
+                    width: 150px;
+                    height: 60px;
+                    background-color: transparent;
+                    border: 3px solid white;
+                    color: white;
+                    font-size: 20px;
+                    &:hover{
+                        background-color: #0047aa;
+                        border: 1px solid #0047aa;
+                        transition: linear 0.3s;
+                    }
+                }
+            }
+
+            &___txt img{
+                width: 50%;
+                object-fit: cover;
+            }
+        }
+        &___bottom{
+            width: 100%;
+            
+            ul{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                li{
+                    list-style: none;
+                }
+            }
+        }
+    }
+}
