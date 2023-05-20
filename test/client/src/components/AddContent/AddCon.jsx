@@ -1,10 +1,11 @@
 import React from 'react'
-import Add from '../../pages/Add/Add'
 
 const AddCon = () => {
   return (
     <>
-    Addcontent
+    <div className="addcon">
+      
+    </div>
     </>
   )
 }

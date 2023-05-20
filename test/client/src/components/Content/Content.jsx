@@ -56,6 +56,50 @@ const Content = () => {
         </ul>
       </div>
     </div>
+    <div className="content___brands">
+      <div className="content___brands___top">
+        <p className="content___brands___top--p1">OUR CASE STUDY</p>
+        <p className="content___brands___top--p2">We work with global brands</p>
+      </div>
+      <div className="content___brands___bottom">
+        <div className="content___brands___bottom--vitrine">
+          <div className="content___brands___bottom--vitrine--item">
+            <div className="content___brands___bottom--vitrine--item--top">
+              <img src="https://preview.colorlib.com/theme/itlock/assets/img/gallery/blog5.jpg.webp" alt="" />
+            </div>
+            <div className="content___brands___bottom--vitrine--item--bottom">
+              <p className='item--name'>Name</p>
+              <p className='item--price'>Price</p>
+            </div>
+          </div>
+          <div className="content___brands___bottom--vitrine--item">
+            <div className="content___brands___bottom--vitrine--item--top">
+              <img src="https://preview.colorlib.com/theme/itlock/assets/img/gallery/blog5.jpg.webp" alt="" />
+            </div>
+            <div className="content___brands___bottom--vitrine--item--bottom">
+              <p className='item--name'>Name</p>
+              <p className='item--price'>Price</p>
+            </div>
+          </div>
+                    <div className="content___brands___bottom--vitrine--item">
+            <div className="content___brands___bottom--vitrine--item--top">
+              <img src="https://preview.colorlib.com/theme/itlock/assets/img/gallery/blog5.jpg.webp" alt="" />
+            </div>
+            <div className="content___brands___bottom--vitrine--item--bottom">
+              <p className='item--name'>Name</p>
+              <p className='item--price'>Price</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="content___work">
+      <p className="content___work--p1">Let's work together.</p>
+      <p className="content___work--p2">We understand the complexities of modern markets and translate them into real business solutions for automotive, financial, insuranc.</p>
+      <div className="content___work--btn">
+        <button>Start Discussion</button>
+      </div>
+    </div>
     </div>
     </>
   )

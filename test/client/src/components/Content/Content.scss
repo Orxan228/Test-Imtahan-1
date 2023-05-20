@@ -5,6 +5,9 @@
         width: 100%;
         padding: 150px 80px;
         background-image: url(https://preview.colorlib.com/theme/itlock/assets/img/hero/h1_hero1.jpg.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
         &___txt{
             width: 45%;
             display: flex;
@@ -155,6 +158,113 @@
 
                 li{
                     list-style: none;
+                }
+            }
+        }
+    }
+    &___brands{
+        width: 90%;
+        margin: 50px auto;
+
+        &___top{
+            width: 100%;
+            text-align: center;
+
+            &--p1{
+                margin-bottom: 20px;
+                letter-spacing: 3px;
+                font-weight: 300;
+                color: #0047aa;
+            }
+            &--p2{
+                margin-bottom: 20px;
+                font-size: 40px;
+                font-weight: 700;
+                color: #001c44;
+            }
+        }
+
+        &___bottom{
+            width: 100%;
+            padding: 15px;
+
+            &--vitrine{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content:space-between;
+
+                &--item{
+                    width: 30%;
+                    margin: 15px;
+
+                    &--top{
+                        width: 100%;
+
+                        & img{
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+
+                    &--bottom{
+                        width: 100%;
+                        padding: 10px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+
+                        .item--name{
+                            font-size: 25px;
+                            font-weight: 500;
+                            color: #002963;
+                        }
+
+                        .item--price{
+                            color: #172232;
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &___work{
+        width: 100%;
+        padding: 100px 0;
+        background-color: #003072;
+        color: white;
+
+        &--p1{
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 40px;
+            font-weight: 500;
+        }
+
+        &--p2{
+            text-align: center;
+            width: 50%;
+            margin: 0 auto;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        &--btn{
+            width: 100%;
+            text-align: center;
+
+            button{
+                border: 0;
+                width: 230px;
+                height: 65px;
+                color: white;
+                font-size: 18px;
+                background-color: #0077aa;
+
+                &:hover{
+                background-color: #0097d8;
+                transition: linear 0.3s;
                 }
             }
         }

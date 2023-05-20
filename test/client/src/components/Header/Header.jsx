@@ -4,7 +4,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import "./Header.scss"
-
+import {Link} from "react-router-dom" 
 const Header = () => {
   return (
     <>
@@ -25,8 +25,8 @@ const Header = () => {
           <div className="header___nav___bottom___left">
             <ul>
               <li><img src="https://preview.colorlib.com/theme/itlock/assets/img/logo/logo.png.webp" alt="" /></li>
-              <li>Home</li>
-              <li>Add</li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="add">Add</Link></li>
             </ul>
           </div>
           <div className="header___nav___bottom___right">
