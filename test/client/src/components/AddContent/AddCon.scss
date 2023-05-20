@@ -1,0 +1,21 @@
+.addcon{
+    width: 100%;
+    min-height: 400px;
+
+    &___form{
+        width: 50%;
+        border-radius: 7px;
+        padding: 70px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin: 100px auto;
+
+        form{
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+}
